@@ -89,12 +89,12 @@
             <a href="zalo-link" class="button">Ủng hộ mình ở đây nhé!</a>
         </header>
         <section class="section">
-            <h2>Lịch phát lên hình cho anh chị em:</h2>
+            <h2>Lịch lên live cho anh chị em :</h2>
             <p>- Thứ Hai - Thứ Sáu: 19:00 - 21:00.</p>
             <p>- Thứ Bảy & Chủ Nhật: 18:00 - 21:30.</p>
         </section>
         <section class="contact-info">
-            <h2>Liên hệ công việc</h2>
+            <h2>Liên hệ công việc :</h2>
             <p>📍 Email: <a href="mailto:baohuy22062002@gmail.com">baohuy22062002@gmail.com</a></p>
             <p>☎️ Số điện thoại: 0795858142</p>
         </section>
