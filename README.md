@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HUB GAMING</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -80,9 +81,17 @@
         .social-media a:hover {
             text-decoration: underline;
         }
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color: #1e1e1e; /* Màu nền mặc định */
+            z-index: -1; /* Đưa hiệu ứng về phía sau nội dung */
+        }
     </style>
 </head>
 <body>
+    <div id="particles-js"></div>
     <div class="container">
         <header>
             <div class="avatar">
@@ -110,5 +119,16 @@
             </div>
         </footer>
     </div>
+src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+particlesJS("particles-js", {
+    particles: {
+        number: { value: 100 },
+        size: { value: 3 },
+        move: { speed: 2 },
+        color: { value: "#ffffff" }
+    }
+});
+</script>
 </body>
 </html>
