@@ -108,6 +108,7 @@
                 <h2>Theo dõi mình trên mạng xã hội</h2>
                 <a href="https://www.tiktok.com/@hub_gaming226?_t=ZS-8ugZgYJ97oX&_r=1" target="_blank">TikTok</a>
                 <a href="https://www.facebook.com/cynical2206" target="_blank">Facebook</a>
+                <a href="https://www.youtube.com/@baohuy2967" target="_blank">Youtube</a>
             </div>
         </footer>
     </div>
