@@ -12,6 +12,10 @@
             margin: 0;
             padding: 0;
         }
+       body {
+    background: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnF2bmtxZHA3dTAxMGxwY3lxOWJzOGxiZGpqeWNzbWJrZzN0Z3QyNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0O9zAWvVLOoJblOo/giphy.gif) no-repeat center center fixed;
+    background-size: cover;
+}
         .container {
             max-width: 800px;
             margin: 0 auto;
