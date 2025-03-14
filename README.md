@@ -14,7 +14,7 @@
             padding: 0;
         }
        body {
-    background: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnF2bmtxZHA3dTAxMGxwY3lxOWJzOGxiZGpqeWNzbWJrZzN0Z3QyNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0O9zAWvVLOoJblOo/giphy.gif) no-repeat center center fixed;
+    background: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXU2NDRqaG1oNGVvbDN6bTBxbmp1dHFvaDVyY3c5dmRyNzVoZnVlayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BHNfhgU63qrks/giphy.gif) no-repeat center center fixed;
     background-size: cover;
 }
         .container {
@@ -81,17 +81,9 @@
         .social-media a:hover {
             text-decoration: underline;
         }
-        #particles-js {
-            position: fixed;
-            width: 100%;
-            height: 100%;
-            background-color: #1e1e1e; /* Màu nền mặc định */
-            z-index: -1; /* Đưa hiệu ứng về phía sau nội dung */
-        }
     </style>
 </head>
 <body>
-    <div id="particles-js"></div>
     <div class="container">
         <header>
             <div class="avatar">
@@ -119,16 +111,5 @@
             </div>
         </footer>
     </div>
-src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script>
-particlesJS("particles-js", {
-    particles: {
-        number: { value: 100 },
-        size: { value: 3 },
-        move: { speed: 2 },
-        color: { value: "#ffffff" }
-    }
-});
-</script>
 </body>
 </html>
