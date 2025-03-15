@@ -91,7 +91,7 @@
             </div>
             <h1>HUB GAMING</h1>
             <p>Chào mừng bạn đến với HUB GAMING! Tại đây, bạn sẽ được giải trí với những video gameplay, review, livestream và chia sẻ kinh nghiệm thú vị. Hãy đăng ký và theo dõi mình trên mọi nền tảng để không bỏ lỡ những nội dung độc đáo mỗi ngày!</p>
-            <a href="zalo-link" class="button">Ủng hộ mình ở đây nhé!</a>
+            <a href="https://playerduo.net/hubgaming" class="button">Ủng hộ mình ở đây nhé!</a>
         </header>
         <section class="section">
             <h2>Lịch lên live cho anh chị em :</h2>
@@ -100,12 +100,12 @@
         </section>
         <section class="contact-info">
             <h2>Liên hệ công việc :</h2>
-            <p>📍 Email: <a href="mailto:baohuy22062002@gmail.com">baohuy22062002@gmail.com</a></p>
-            <p>☎️ Số điện thoại: 0795858142</p>
+            <p> 📍 Email: <a href="mailto:baohuy22062002@gmail.com">baohuy22062002@gmail.com</a></p>
+            <p> ☎️ Số điện thoại: 0795858142</p>
         </section>
         <footer>
             <div class="social-media">
-                <h2>Theo dõi mình trên mạng xã hội</h2>
+                <h2>Theo dõi mình trên mạng xã hội :</h2>
                 <a href="https://www.tiktok.com/@hub_gaming226?_t=ZS-8ugZgYJ97oX&_r=1" target="_blank">TikTok</a>
                 <a href="https://www.facebook.com/cynical2206" target="_blank">Facebook</a>
                 <a href="https://www.youtube.com/@baohuy2967" target="_blank">Youtube</a>
