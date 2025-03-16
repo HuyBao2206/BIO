@@ -7,11 +7,6 @@
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <style>
         body {
-    width: 100%;
-    max-width: 480px; /* Giới hạn chiều rộng cho mobile */
-    margin: auto;
-}
-        body {
             font-family: 'Arial', sans-serif;
             background-color: #f4f4f4;
             color: #333;
