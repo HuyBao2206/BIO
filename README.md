@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="styles.css">
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
     body {
       font-family: 'Arial', sans-serif;
       color: #333;
@@ -46,9 +47,12 @@
       border: 3px solid #4CAF50;
     }
     h1 {
-      color: #4CAF50;
+      font-family: 'Orbitron', sans-serif;
       font-size: 2.5em;
       margin: 10px 0;
+      background: linear-gradient(90deg, #ff8c00, #ff0080);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
     h2 {
       color: #333;
