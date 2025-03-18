@@ -78,40 +78,36 @@
     .social-media a:hover {
       text-decoration: underline;
     }
-    /* CSS cho carousel ảnh với nút điều hướng */
+    /* CSS cho carousel hiển thị 1 ảnh lớn */
     .image-carousel {
       position: relative;
-      width: 100%;
+      width: 600px;      /* Chiều rộng container carousel */
+      height: 400px;     /* Chiều cao container carousel */
+      margin: 20px auto;
       overflow: hidden;
-      background-color: #e7f3fe;
-      padding: 10px 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
     }
     .carousel-container {
       display: flex;
-      overflow-x: auto;
-      scroll-behavior: smooth;
+      transition: transform 0.5s ease;
     }
     .carousel-container img {
-      width: 150px;
-      margin: 0 5px;
-      border-radius: 5px;
-      flex: 0 0 auto;
+      width: 600px;    /* Cùng chiều rộng với container */
+      height: 400px;   /* Cùng chiều cao với container */
+      object-fit: cover;
     }
     .image-carousel button {
-      background-color: #4CAF50;
-      border: none;
-      color: white;
-      padding: 10px;
-      cursor: pointer;
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      z-index: 1;
+      background: rgba(0, 0, 0, 0.5);
+      border: none;
+      color: #fff;
+      padding: 10px;
+      cursor: pointer;
       border-radius: 50%;
+      font-size: 18px;
     }
     .image-carousel .prev {
       left: 10px;
@@ -148,34 +144,41 @@
         <a href="https://www.facebook.com/cynical2206" target="_blank">Facebook</a>
         <a href="https://www.youtube.com/@baohuy2967" target="_blank">Youtube</a>
       </div>
-    </footer> 
-    <!-- Phần carousel ảnh với nút điều hướng -->
+    </footer>
+    <!-- Phần carousel hiển thị 1 ảnh lớn, có nút điều hướng -->
     <section class="image-carousel">
-      <button class="prev">&lt;</button>
       <div class="carousel-container">
-        <img src="https://via.placeholder.com/150x100?text=Image+1" alt="Image 1">
-        <img src="https://via.placeholder.com/150x100?text=Image+2" alt="Image 2">
-        <img src="https://via.placeholder.com/150x100?text=Image+3" alt="Image 3">
-        <img src="https://via.placeholder.com/150x100?text=Image+4" alt="Image 4">
-        <img src="https://via.placeholder.com/150x100?text=Image+5" alt="Image 5">
+        <img src="https://via.placeholder.com/600x400?text=Image+1" alt="Image 1">
+        <img src="https://via.placeholder.com/600x400?text=Image+2" alt="Image 2">
+        <img src="https://via.placeholder.com/600x400?text=Image+3" alt="Image 3">
+        <img src="https://via.placeholder.com/600x400?text=Image+4" alt="Image 4">
+        <img src="https://via.placeholder.com/600x400?text=Image+5" alt="Image 5">
       </div>
+      <button class="prev">&lt;</button>
       <button class="next">&gt;</button>
     </section>
   </div>
-
+  
   <!-- JavaScript cho carousel -->
   <script>
-    const prevBtn = document.querySelector('.image-carousel .prev');
-    const nextBtn = document.querySelector('.image-carousel .next');
+    let currentIndex = 0;
     const carouselContainer = document.querySelector('.carousel-container');
-
-    prevBtn.addEventListener('click', () => {
-      carouselContainer.scrollBy({ left: -160, behavior: 'smooth' });
+    const images = document.querySelectorAll('.carousel-container img');
+    const totalImages = images.length;
+    
+    document.querySelector('.image-carousel .prev').addEventListener('click', () => {
+      currentIndex = (currentIndex === 0) ? totalImages - 1 : currentIndex - 1;
+      updateCarousel();
     });
-
-    nextBtn.addEventListener('click', () => {
-      carouselContainer.scrollBy({ left: 160, behavior: 'smooth' });
+    
+    document.querySelector('.image-carousel .next').addEventListener('click', () => {
+      currentIndex = (currentIndex === totalImages - 1) ? 0 : currentIndex + 1;
+      updateCarousel();
     });
+    
+    function updateCarousel() {
+      carouselContainer.style.transform = 'translateX(' + (-currentIndex * 600) + 'px)';
+    }
   </script>
 </body>
 </html>
