@@ -78,42 +78,15 @@
     .social-media a:hover {
       text-decoration: underline;
     }
-    /* CSS cho carousel hiển thị 1 ảnh lớn */
-    .image-carousel {
-      position: relative;
-      width: 600px;      /* Chiều rộng container carousel */
-      height: 400px;     /* Chiều cao container carousel */
-      margin: 20px auto;
-      overflow: hidden;
+    .video-section {
+      margin: 20px 0;
+      text-align: center;
+    }
+    .video-section video {
+      width: 100%;
+      max-width: 800px;
       border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-    }
-    .carousel-container {
-      display: flex;
-      transition: transform 0.5s ease;
-    }
-    .carousel-container img {
-      width: 600px;    /* Cùng chiều rộng với container */
-      height: 400px;   /* Cùng chiều cao với container */
-      object-fit: cover;
-    }
-    .image-carousel button {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      background: rgba(0, 0, 0, 0.5);
-      border: none;
-      color: #fff;
-      padding: 10px;
-      cursor: pointer;
-      border-radius: 50%;
-      font-size: 18px;
-    }
-    .image-carousel .prev {
-      left: 10px;
-    }
-    .image-carousel .next {
-      right: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     }
   </style>
 </head>
@@ -127,6 +100,12 @@
       <p>Chào mừng bạn đến với HUB GAMING! Tại đây, bạn sẽ được giải trí với những video gameplay, review, livestream và chia sẻ kinh nghiệm thú vị. Hãy đăng ký và theo dõi mình trên mọi nền tảng để không bỏ lỡ những nội dung độc đáo mỗi ngày!</p>
       <a href="https://playerduo.net/hubgaming" class="button">Ủng hộ mình ở đây nhé!</a>
     </header>
+    <section class="video-section">
+      <video autoplay loop muted playsinline>
+        <source src="https://your-video-link.mp4" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ video.
+      </video>
+    </section>
     <section class="section">
       <h2>Lịch lên live cho anh chị em :</h2>
       <p>- Thứ Hai - Thứ Sáu: 19:00 - 21:00.</p>
@@ -145,40 +124,6 @@
         <a href="https://www.youtube.com/@baohuy2967" target="_blank">Youtube</a>
       </div>
     </footer>
-    <!-- Phần carousel hiển thị 1 ảnh lớn, có nút điều hướng -->
-    <section class="image-carousel">
-      <div class="carousel-container">
-        <img src="https://github.com/HuyBao2206/BIO/blob/bfa646a8ea3187345108cc0da5905fbdc374eee2/GTAHUBGAMING.jpg" alt="Image 1">
-        <img src="https://github.com/HuyBao2206/BIO/blob/bfa646a8ea3187345108cc0da5905fbdc374eee2/PUBGHUBGAMING.jpg" alt="Image 2">
-        <img src="https://github.com/HuyBao2206/BIO/blob/bfa646a8ea3187345108cc0da5905fbdc374eee2/BLACKMYTHWUKONGHUBGAMING.jpg" alt="Image 3">
-        <img src="https://github.com/HuyBao2206/BIO/blob/bfa646a8ea3187345108cc0da5905fbdc374eee2/VALORANTHUBGAMING.jpg" alt="Image 4">
-        <img src="https://github.com/HuyBao2206/BIO/blob/bfa646a8ea3187345108cc0da5905fbdc374eee2/YASUOHUBGAMING.jpg" alt="Image 5">
-      </div>
-      <button class="prev">&lt;</button>
-      <button class="next">&gt;</button>
-    </section>
   </div>
-  
-  <!-- JavaScript cho carousel -->
-  <script>
-    let currentIndex = 0;
-    const carouselContainer = document.querySelector('.carousel-container');
-    const images = document.querySelectorAll('.carousel-container img');
-    const totalImages = images.length;
-    
-    document.querySelector('.image-carousel .prev').addEventListener('click', () => {
-      currentIndex = (currentIndex === 0) ? totalImages - 1 : currentIndex - 1;
-      updateCarousel();
-    });
-    
-    document.querySelector('.image-carousel .next').addEventListener('click', () => {
-      currentIndex = (currentIndex === totalImages - 1) ? 0 : currentIndex + 1;
-      updateCarousel();
-    });
-    
-    function updateCarousel() {
-      carouselContainer.style.transform = 'translateX(' + (-currentIndex * 600) + 'px)';
-    }
-  </script>
 </body>
 </html>
