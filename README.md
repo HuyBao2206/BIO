@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: 'Arial', sans-serif;
-      background: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnY3MnA0cGNhbWdjZWt6aTNxOXNibXc3MHJueGcwNHJnczIybnJvMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lkfz5lUwP513VW2rT0/giphy.gif) no-repeat center center fixed;
+      background: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGk4NXllOTN1MmxrMTkycHo5enk4Ymo4a2txenpxb3l2dWN0YTgyaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7AtHoQ9XWbpwLRxs0t/giphy.gif) no-repeat center center fixed;
       background-size: cover;
       color: #333;
       margin: 0;
