@@ -48,7 +48,7 @@
     }
     h1 {
       font-family: 'Orbitron', sans-serif;
-      font-size: 2.5em;
+      font-size: 3em;
       margin: 10px 0;
       background: linear-gradient(90deg, #ff8c00, #ff0080);
       -webkit-background-clip: text;
@@ -56,7 +56,7 @@
     }
     h2 {
       color: #333;
-      font-size: 1.8em;
+      font-size: 2em;
       margin: 20px 0 10px;
     }
     p {
@@ -132,7 +132,7 @@
       <h2>Lịch lên live cho anh chị em :</h2>
       <p>- Thứ Hai - Thứ Sáu: 19:00 - 21:00.</p>
       <p>- Thứ Bảy & Chủ Nhật: 18:00 - 21:30.</p>
-      <p>- Anh chị em ủng hộ nhìu thì stream đến khi độ kiếp nhé! iu cả nhà mình!</p>
+      <p>- Anh chị em ủng hộ nhìu thì stream đến khi độ kiếp nhé! Yêu cả nhà mình!</p>
     </section>
     <section class="contact-info">
       <h2>Liên hệ công việc :</h2>
