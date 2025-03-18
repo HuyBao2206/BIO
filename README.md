@@ -7,12 +7,18 @@
   <style>
     body {
       font-family: 'Arial', sans-serif;
-      background: <video autoplay loop muted playsinline>
-        <source src="https://github.com/HuyBao2206/BIO/raw/fd852482e6beb927f5b1f108204e028f1fe9e9ac/9convert.com%20-%20Neon%20Rounded%20Purple%20lines%20Abstract%20Gradient%20Background%20Animation%20%20Free%20Version_1080p.mp4">
-      background-size: cover;
       color: #333;
       margin: 0;
       padding: 0;
+    }
+    #background-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
     }
     @keyframes gradientBG {
         0% { background: linear-gradient(135deg, #e0f7fa, #c5e1a5); }
@@ -99,6 +105,10 @@
   </style>
 </head>
 <body>
+  <video autoplay loop muted playsinline id="background-video">
+    <source src="https://github.com/HuyBao2206/BIO/raw/fd852482e6beb927f5b1f108204e028f1fe9e9ac/9convert.com%20-%20Neon%20Rounded%20Purple%20lines%20Abstract%20Gradient%20Background%20Animation%20%20Free%20Version_1080p.mp4" type="video/mp4">
+    Trình duyệt của bạn không hỗ trợ video.
+  </video>
   <div class="container">
     <header>
       <div class="avatar">
