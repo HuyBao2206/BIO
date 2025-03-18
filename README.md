@@ -1,4 +1,4 @@
-<head> 
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HUB GAMING</title>
@@ -7,16 +7,18 @@
   <style>
     body {
       font-family: 'Arial', sans-serif;
-      background: black;
+      background: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3QzdTJuOWg3Y2ozNXJldjM2bm9tdThkNGYxbzNvb2VycjMwbGlxYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3qXi5eIvcgCmTDObOU/giphy.gif) no-repeat center center fixed;
+      background-size: cover;
       color: #333;
       margin: 0;
       padding: 0;
     }
-    #particles-js {
-      position: fixed;
-      width: 100%;
-      height: 100%;
-      z-index: -1;
+    @keyframes gradientBG {
+        0% { background: linear-gradient(135deg, #e0f7fa, #c5e1a5); }
+        25% { background: linear-gradient(135deg, #c5e1a5, #b2dfdb); }
+        50% { background: linear-gradient(135deg, #b2dfdb, #81c784); }
+        75% { background: linear-gradient(135deg, #81c784, #f8bbd0); }
+        100% { background: linear-gradient(135deg, #f8bbd0, #e0f7fa); }
     }
     .container {
       max-width: 800px;
@@ -24,8 +26,8 @@
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-      background: rgba(0, 0, 0, 0.8);
-      color: white;
+      animation: gradientBG 10s infinite alternate ease-in-out;
+      background-size: 200% 200%;
     }
     header {
       text-align: center;
@@ -42,7 +44,7 @@
       margin: 10px 0;
     }
     h2 {
-      color: #fff;
+      color: #333;
       font-size: 1.8em;
       margin: 20px 0 10px;
     }
@@ -65,7 +67,7 @@
       background-color: #45a049;
     }
     .section {
-      background-color: rgba(231, 243, 254, 0.2);
+      background-color: rgba(231, 243, 254, 0.8);
       padding: 15px;
       border-radius: 5px;
       margin: 20px 0;
@@ -96,7 +98,6 @@
   </style>
 </head>
 <body>
-  <div id="particles-js"></div>
   <div class="container">
     <header>
       <div class="avatar">
@@ -132,16 +133,5 @@
       </div>
     </footer>
   </div>
-
-  <script>
-    particlesJS("particles-js", {
-      "particles": {
-        "number": { "value": 100 },
-        "size": { "value": 3 },
-        "color": { "value": "#ffffff" },
-        "move": { "speed": 2 }
-      }
-    });
-  </script>
 </body>
 </html>
