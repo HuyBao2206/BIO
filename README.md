@@ -101,10 +101,10 @@
       <a href="https://playerduo.net/hubgaming" class="button">Ủng hộ mình ở đây nhé!</a>
     </header>
     <section class="video-section">
-      <video autoplay loop muted playsinline>
-        <source src="https://raw.githubusercontent.com/HuyBao2206/BIO/main/biovideohubgaming.mp4" type="video/mp4">
-        Trình duyệt của bạn không hỗ trợ video.
-      </video>
+     <video autoplay loop muted playsinline>
+  <source src="https://drive.google.com/uc?export=download&id=1_vQslwpmq9luEY02SN8KWDhZBTqB-V80" type="video/mp4">
+  Trình duyệt của bạn không hỗ trợ video.
+</video>
     </section>
     <section class="section">
       <h2>Lịch lên live cho anh chị em :</h2>
