@@ -26,7 +26,7 @@
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-      animation: gradientBG 5s infinite alternate ease-in-out;
+      animation: gradientBG 10s infinite alternate ease-in-out;
       background-size: 200% 200%;
     }
     header {
