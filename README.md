@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: 'Arial', sans-serif;
-      background: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3QzdTJuOWg3Y2ozNXJldjM2bm9tdThkNGYxbzNvb2VycjMwbGlxYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3qXi5eIvcgCmTDObOU/giphy.gif) no-repeat center center fixed;
+      background: url(https://github.com/HuyBao2206/BIO/raw/fd852482e6beb927f5b1f108204e028f1fe9e9ac/9convert.com%20-%20Neon%20Rounded%20Purple%20lines%20Abstract%20Gradient%20Background%20Animation%20%20Free%20Version_1080p.mp4) no-repeat center center fixed;
       background-size: cover;
       color: #333;
       margin: 0;
