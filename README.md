@@ -6,9 +6,14 @@
   <link rel="stylesheet" href="styles.css">
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <style>
+    @keyframes gradientBackground {
+      0% { background: linear-gradient(135deg, #e0f7fa, #f1f8e9); }
+      50% { background: linear-gradient(135deg, #f1f8e9, #e3f2fd); }
+      100% { background: linear-gradient(135deg, #e0f7fa, #f1f8e9); }
+    }
     body {
       font-family: 'Arial', sans-serif;
-      background: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXU2NDRqaG1oNGVvbDN6bTBxbmp1dHFvaDVyY3c5dmRyNzVoZnVlayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BHNfhgU63qrks/giphy.gif) no-repeat center center fixed;
+      animation: gradientBackground 15s infinite alternate ease-in-out;
       background-size: cover;
       color: #333;
       margin: 0;
@@ -102,9 +107,9 @@
     </header>
     <section class="video-section">
      <video autoplay loop muted playsinline>
-  <source src="https://raw.githubusercontent.com/HuyBao2206/BIO/main/biovideohubgaming.mp4" type="video/mp4">
-  Trình duyệt của bạn không hỗ trợ video.
-</video>
+        <source src="https://raw.githubusercontent.com/HuyBao2206/BIO/main/biovideohubgaming.mp4" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ video.
+     </video>
     </section>
     <section class="section">
       <h2>Lịch lên live cho anh chị em :</h2>
