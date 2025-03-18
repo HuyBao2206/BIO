@@ -14,9 +14,11 @@
       padding: 0;
     }
     @keyframes gradientBG {
-        0% { background: linear-gradient(135deg, #ffffff, #f1f8e9); }
-        50% { background: linear-gradient(135deg, #f1f8e9, #e3f2fd); }
-        100% { background: linear-gradient(135deg, #ffffff, #f1f8e9); }
+        0% { background: linear-gradient(135deg, #e0f7fa, #c5e1a5); }
+        25% { background: linear-gradient(135deg, #c5e1a5, #b2dfdb); }
+        50% { background: linear-gradient(135deg, #b2dfdb, #81c784); }
+        75% { background: linear-gradient(135deg, #81c784, #f8bbd0); }
+        100% { background: linear-gradient(135deg, #f8bbd0, #e0f7fa); }
     }
     .container {
       max-width: 800px;
