@@ -102,7 +102,7 @@
     </header>
     <section class="video-section">
      <video autoplay loop muted playsinline>
-  <source src="https://github.com/HuyBao2206/BIO/blob/4c103c78a75cf363fdb388c2f2e9206910c387e1/biovideohubgaming.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/HuyBao2206/BIO/main/biovideohubgaming.mp4" type="video/mp4">
   Trình duyệt của bạn không hỗ trợ video.
 </video>
     </section>
