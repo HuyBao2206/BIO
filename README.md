@@ -110,6 +110,7 @@
       <h2>Lịch lên live cho anh chị em :</h2>
       <p>- Thứ Hai - Thứ Sáu: 19:00 - 21:00.</p>
       <p>- Thứ Bảy & Chủ Nhật: 18:00 - 21:30.</p>
+      <p>- Anh chị em ủng hộ nhìu thì stream đến khi độ kiếp nhé! iu cả nhà mình!.</p>
     </section>
     <section class="contact-info">
       <h2>Liên hệ công việc :</h2>
