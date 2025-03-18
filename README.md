@@ -148,11 +148,11 @@
     <!-- Phần carousel hiển thị 1 ảnh lớn, có nút điều hướng -->
     <section class="image-carousel">
       <div class="carousel-container">
-        <img src="https://via.placeholder.com/600x400?text=Image+1" alt="Image 1">
-        <img src="https://via.placeholder.com/600x400?text=Image+2" alt="Image 2">
-        <img src="https://via.placeholder.com/600x400?text=Image+3" alt="Image 3">
-        <img src="https://via.placeholder.com/600x400?text=Image+4" alt="Image 4">
-        <img src="https://via.placeholder.com/600x400?text=Image+5" alt="Image 5">
+        <img src="https://github.com/HuyBao2206/BIO/blob/bfa646a8ea3187345108cc0da5905fbdc374eee2/GTAHUBGAMING.jpg" alt="Image 1">
+        <img src="https://github.com/HuyBao2206/BIO/blob/bfa646a8ea3187345108cc0da5905fbdc374eee2/PUBGHUBGAMING.jpg" alt="Image 2">
+        <img src="https://github.com/HuyBao2206/BIO/blob/bfa646a8ea3187345108cc0da5905fbdc374eee2/BLACKMYTHWUKONGHUBGAMING.jpg" alt="Image 3">
+        <img src="https://github.com/HuyBao2206/BIO/blob/bfa646a8ea3187345108cc0da5905fbdc374eee2/VALORANTHUBGAMING.jpg" alt="Image 4">
+        <img src="https://github.com/HuyBao2206/BIO/blob/bfa646a8ea3187345108cc0da5905fbdc374eee2/YASUOHUBGAMING.jpg" alt="Image 5">
       </div>
       <button class="prev">&lt;</button>
       <button class="next">&gt;</button>
