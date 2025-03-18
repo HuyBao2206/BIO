@@ -1,4 +1,3 @@
-<html lang="vi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,26 +5,27 @@
   <link rel="stylesheet" href="styles.css">
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <style>
-    @keyframes gradientBackground {
-      0% { background: linear-gradient(135deg, #e0f7fa, #f1f8e9); }
-      50% { background: linear-gradient(135deg, #f1f8e9, #e3f2fd); }
-      100% { background: linear-gradient(135deg, #e0f7fa, #f1f8e9); }
-    }
     body {
       font-family: 'Arial', sans-serif;
-      animation: gradientBackground 15s infinite alternate ease-in-out;
+      background: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXU2NDRqaG1oNGVvbDN6bTBxbmp1dHFvaDVyY3c5dmRyNzVoZnVlayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BHNfhgU63qrks/giphy.gif) no-repeat center center fixed;
       background-size: cover;
       color: #333;
       margin: 0;
       padding: 0;
     }
+    @keyframes gradientBG {
+        0% { background: linear-gradient(135deg, #ffffff, #f1f8e9); }
+        50% { background: linear-gradient(135deg, #f1f8e9, #e3f2fd); }
+        100% { background: linear-gradient(135deg, #ffffff, #f1f8e9); }
+    }
     .container {
       max-width: 800px;
-      margin: 0 auto;
+      margin: 20px auto;
       padding: 20px;
-      background-color: #fff;
       border-radius: 8px;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      animation: gradientBG 10s infinite alternate ease-in-out;
+      background-size: 200% 200%;
     }
     header {
       text-align: center;
@@ -65,7 +65,7 @@
       background-color: #45a049;
     }
     .section {
-      background-color: #e7f3fe;
+      background-color: rgba(231, 243, 254, 0.8);
       padding: 15px;
       border-radius: 5px;
       margin: 20px 0;
@@ -106,10 +106,10 @@
       <a href="https://playerduo.net/hubgaming" class="button">Ủng hộ mình ở đây nhé!</a>
     </header>
     <section class="video-section">
-     <video autoplay loop muted playsinline>
+      <video autoplay loop muted playsinline>
         <source src="https://raw.githubusercontent.com/HuyBao2206/BIO/main/biovideohubgaming.mp4" type="video/mp4">
         Trình duyệt của bạn không hỗ trợ video.
-     </video>
+      </video>
     </section>
     <section class="section">
       <h2>Lịch lên live cho anh chị em :</h2>
