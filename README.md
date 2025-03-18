@@ -8,83 +8,72 @@
   <style>
     body {
       font-family: 'Arial', sans-serif;
-      background: linear-gradient(135deg, #1e3c72, #2a5298);
-      color: #fff;
+      background: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXU2NDRqaG1oNGVvbDN6bTBxbmp1dHFvaDVyY3c5dmRyNzVoZnVlayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BHNfhgU63qrks/giphy.gif) no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
       margin: 0;
       padding: 0;
-      overflow-x: hidden;
-      animation: backgroundAnimation 10s infinite alternate;
-    }
-    @keyframes backgroundAnimation {
-      0% { background-position: 0% 0%; }
-      100% { background-position: 100% 100%; }
     }
     .container {
-      max-width: 900px;
-      margin: 30px auto;
+      max-width: 800px;
+      margin: 0 auto;
       padding: 20px;
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 12px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-      backdrop-filter: blur(10px);
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     }
     header {
       text-align: center;
       margin-bottom: 20px;
     }
     .avatar img {
-      width: 270px;
+      width: 250px;
       border-radius: 50%;
-      border: 4px solid #4CAF50;
+      border: 3px solid #4CAF50;
     }
     h1 {
       color: #4CAF50;
-      font-size: 3em;
+      font-size: 2.5em;
       margin: 10px 0;
     }
     h2 {
-      color: #fff;
-      font-size: 2em;
+      color: #333;
+      font-size: 1.8em;
       margin: 20px 0 10px;
     }
     p {
-      max-width: 700px;
+      max-width: 600px;
       margin: 0 auto;
       text-align: center;
-      font-size: 1.2em;
     }
     .button {
       display: inline-block;
-      padding: 12px 25px;
+      padding: 10px 20px;
       background-color: #4CAF50;
       color: white;
       text-decoration: none;
-      border-radius: 8px;
-      transition: background-color 0.3s, transform 0.2s;
+      border-radius: 5px;
+      transition: background-color 0.3s;
       margin: 20px 0;
-      font-size: 1.2em;
     }
     .button:hover {
       background-color: #45a049;
-      transform: scale(1.05);
     }
     .section {
-      background: linear-gradient(135deg, #6a11cb, #2575fc);
-      padding: 20px;
-      border-radius: 10px;
+      background-color: #e7f3fe;
+      padding: 15px;
+      border-radius: 5px;
       margin: 20px 0;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     }
     footer {
       text-align: center;
       margin-top: 20px;
     }
     .social-media a {
-      margin: 0 15px;
+      margin: 0 10px;
       text-decoration: none;
       color: #4CAF50;
       font-weight: bold;
-      font-size: 1.2em;
     }
     .social-media a:hover {
       text-decoration: underline;
@@ -95,9 +84,9 @@
     }
     .video-section video {
       width: 100%;
-      max-width: 850px;
-      border-radius: 12px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      max-width: 800px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     }
   </style>
 </head>
@@ -113,9 +102,9 @@
     </header>
     <section class="video-section">
      <video autoplay loop muted playsinline>
-        <source src="https://raw.githubusercontent.com/HuyBao2206/BIO/main/biovideohubgaming.mp4" type="video/mp4">
-        Trình duyệt của bạn không hỗ trợ video.
-      </video>
+  <source src="https://raw.githubusercontent.com/HuyBao2206/BIO/main/biovideohubgaming.mp4" type="video/mp4">
+  Trình duyệt của bạn không hỗ trợ video.
+</video>
     </section>
     <section class="section">
       <h2>Lịch lên live cho anh chị em :</h2>
@@ -123,9 +112,9 @@
       <p>- Thứ Bảy & Chủ Nhật: 18:00 - 21:30.</p>
       <p>- Anh chị em ủng hộ nhìu thì stream đến khi độ kiếp nhé! iu cả nhà mình!</p>
     </section>
-    <section class="section">
+    <section class="contact-info">
       <h2>Liên hệ công việc :</h2>
-      <p>📍 Email: <a href="mailto:baohuy22062002@gmail.com" style="color: #fff;">baohuy22062002@gmail.com</a></p>
+      <p>📍 Email: <a href="mailto:baohuy22062002@gmail.com">baohuy22062002@gmail.com</a></p>
       <p>☎️ Số điện thoại: 0795858142</p>
     </section>
     <footer>
