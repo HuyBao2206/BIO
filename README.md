@@ -8,15 +8,12 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
+            background: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXU2NDRqaG1oNGVvbDN6bTBxbmp1dHFvaDVyY3c5dmRyNzVoZnVlayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BHNfhgU63qrks/giphy.gif) no-repeat center center fixed;
+            background-size: cover;
             color: #333;
             margin: 0;
             padding: 0;
         }
-       body {
-    background: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXU2NDRqaG1oNGVvbDN6bTBxbmp1dHFvaDVyY3c5dmRyNzVoZnVlayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BHNfhgU63qrks/giphy.gif) no-repeat center center fixed;
-    background-size: cover;
-}
         .container {
             max-width: 800px;
             margin: 0 auto;
@@ -44,11 +41,11 @@
             font-size: 1.8em;
             margin: 20px 0 10px;
         }
-       p {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
-}
+        p {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
         .button {
             display: inline-block;
             padding: 10px 20px;
@@ -81,6 +78,28 @@
         .social-media a:hover {
             text-decoration: underline;
         }
+        /* CSS cho thanh cuộn ảnh */
+        .image-slider {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+            padding: 10px;
+            background-color: #e7f3fe;
+            scroll-snap-type: x mandatory;
+        }
+        .image-slider::-webkit-scrollbar {
+            height: 8px;
+        }
+        .image-slider::-webkit-scrollbar-thumb {
+            background: #4CAF50;
+            border-radius: 4px;
+        }
+        .image-slider img {
+            height: 100px;
+            flex: 0 0 auto;
+            scroll-snap-align: center;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
@@ -111,6 +130,14 @@
                 <a href="https://www.youtube.com/@baohuy2967" target="_blank">Youtube</a>
             </div>
         </footer>
+        <!-- Thanh cuộn ảnh ở dưới cùng -->
+        <section class="image-slider">
+            <img src="https://via.placeholder.com/150x100?text=Image+1" alt="Image 1">
+            <img src="https://via.placeholder.com/150x100?text=Image+2" alt="Image 2">
+            <img src="https://via.placeholder.com/150x100?text=Image+3" alt="Image 3">
+            <img src="https://via.placeholder.com/150x100?text=Image+4" alt="Image 4">
+            <img src="https://via.placeholder.com/150x100?text=Image+5" alt="Image 5">
+        </section>
     </div>
 </body>
 </html>
