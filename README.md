@@ -1,143 +1,181 @@
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HUB GAMING</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXU2NDRqaG1oNGVvbDN6bTBxbmp1dHFvaDVyY3c5dmRyNzVoZnVlayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BHNfhgU63qrks/giphy.gif) no-repeat center center fixed;
-            background-size: cover;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .avatar img {
-            width: 250px;
-            border-radius: 50%;
-            border: 3px solid #4CAF50;
-        }
-        h1 {
-            color: #4CAF50;
-            font-size: 2.5em;
-            margin: 10px 0;
-        }
-        h2 {
-            color: #333;
-            font-size: 1.8em;
-            margin: 20px 0 10px;
-        }
-        p {
-            max-width: 600px;
-            margin: 0 auto;
-            text-align: center;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-            margin: 20px 0;
-        }
-        .button:hover {
-            background-color: #45a049;
-        }
-        .section {
-            background-color: #e7f3fe;
-            padding: 15px;
-            border-radius: 5px;
-            margin: 20px 0;
-        }
-        footer {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .social-media a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: #4CAF50;
-            font-weight: bold;
-        }
-        .social-media a:hover {
-            text-decoration: underline;
-        }
-        /* CSS cho thanh cuộn ảnh */
-        .image-slider {
-            display: flex;
-            overflow-x: auto;
-            gap: 10px;
-            padding: 10px;
-            background-color: #e7f3fe;
-            scroll-snap-type: x mandatory;
-        }
-        .image-slider::-webkit-scrollbar {
-            height: 8px;
-        }
-        .image-slider::-webkit-scrollbar-thumb {
-            background: #4CAF50;
-            border-radius: 4px;
-        }
-        .image-slider img {
-            height: 100px;
-            flex: 0 0 auto;
-            scroll-snap-align: center;
-            border-radius: 5px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HUB GAMING</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXU2NDRqaG1oNGVvbDN6bTBxbmp1dHFvaDVyY3c5dmRyNzVoZnVlayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BHNfhgU63qrks/giphy.gif) no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .avatar img {
+      width: 250px;
+      border-radius: 50%;
+      border: 3px solid #4CAF50;
+    }
+    h1 {
+      color: #4CAF50;
+      font-size: 2.5em;
+      margin: 10px 0;
+    }
+    h2 {
+      color: #333;
+      font-size: 1.8em;
+      margin: 20px 0 10px;
+    }
+    p {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      margin: 20px 0;
+    }
+    .button:hover {
+      background-color: #45a049;
+    }
+    .section {
+      background-color: #e7f3fe;
+      padding: 15px;
+      border-radius: 5px;
+      margin: 20px 0;
+    }
+    footer {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .social-media a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #4CAF50;
+      font-weight: bold;
+    }
+    .social-media a:hover {
+      text-decoration: underline;
+    }
+    /* CSS cho carousel ảnh với nút điều hướng */
+    .image-carousel {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      background-color: #e7f3fe;
+      padding: 10px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .carousel-container {
+      display: flex;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+    }
+    .carousel-container img {
+      width: 150px;
+      margin: 0 5px;
+      border-radius: 5px;
+      flex: 0 0 auto;
+    }
+    .image-carousel button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px;
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1;
+      border-radius: 50%;
+    }
+    .image-carousel .prev {
+      left: 10px;
+    }
+    .image-carousel .next {
+      right: 10px;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="avatar">
-                <img src="https://raw.githubusercontent.com/HuyBao2206/bao-huy/main/Thi%E1%BA%BFt%20k%E1%BA%BF%20ch%C6%B0a%20c%C3%B3%20t%C3%AAn.png" alt="Fk" />
-            </div>
-            <h1>HUB GAMING</h1>
-            <p>Chào mừng bạn đến với HUB GAMING! Tại đây, bạn sẽ được giải trí với những video gameplay, review, livestream và chia sẻ kinh nghiệm thú vị. Hãy đăng ký và theo dõi mình trên mọi nền tảng để không bỏ lỡ những nội dung độc đáo mỗi ngày!</p>
-            <a href="https://playerduo.net/hubgaming" class="button">Ủng hộ mình ở đây nhé!</a>
-        </header>
-        <section class="section">
-            <h2>Lịch lên live cho anh chị em :</h2>
-            <p>- Thứ Hai - Thứ Sáu: 19:00 - 21:00.</p>
-            <p>- Thứ Bảy & Chủ Nhật: 18:00 - 21:30.</p>
-        </section>
-        <section class="contact-info">
-            <h2>Liên hệ công việc :</h2>
-            <p> 📍 Email: <a href="mailto:baohuy22062002@gmail.com">baohuy22062002@gmail.com</a></p>
-            <p> ☎️ Số điện thoại: 0795858142</p>
-        </section>
-        <footer>
-            <div class="social-media">
-                <h2>Theo dõi mình trên mạng xã hội :</h2>
-                <a href="https://www.tiktok.com/@hub_gaming226?_t=ZS-8ugZgYJ97oX&_r=1" target="_blank">TikTok</a>
-                <a href="https://www.facebook.com/cynical2206" target="_blank">Facebook</a>
-                <a href="https://www.youtube.com/@baohuy2967" target="_blank">Youtube</a>
-            </div>
-        </footer>
-        <!-- Thanh cuộn ảnh ở dưới cùng -->
-        <section class="image-slider">
-            <img src="https://via.placeholder.com/150x100?text=Image+1" alt="Image 1">
-            <img src="https://via.placeholder.com/150x100?text=Image+2" alt="Image 2">
-            <img src="https://via.placeholder.com/150x100?text=Image+3" alt="Image 3">
-            <img src="https://via.placeholder.com/150x100?text=Image+4" alt="Image 4">
-            <img src="https://via.placeholder.com/150x100?text=Image+5" alt="Image 5">
-        </section>
-    </div>
+  <div class="container">
+    <header>
+      <div class="avatar">
+        <img src="https://raw.githubusercontent.com/HuyBao2206/bao-huy/main/Thi%E1%BA%BFt%20k%E1%BA%BF%20ch%C6%B0a%20c%C3%B3%20t%C3%AAn.png" alt="Fk" />
+      </div>
+      <h1>HUB GAMING</h1>
+      <p>Chào mừng bạn đến với HUB GAMING! Tại đây, bạn sẽ được giải trí với những video gameplay, review, livestream và chia sẻ kinh nghiệm thú vị. Hãy đăng ký và theo dõi mình trên mọi nền tảng để không bỏ lỡ những nội dung độc đáo mỗi ngày!</p>
+      <a href="https://playerduo.net/hubgaming" class="button">Ủng hộ mình ở đây nhé!</a>
+    </header>
+    <section class="section">
+      <h2>Lịch lên live cho anh chị em :</h2>
+      <p>- Thứ Hai - Thứ Sáu: 19:00 - 21:00.</p>
+      <p>- Thứ Bảy & Chủ Nhật: 18:00 - 21:30.</p>
+    </section>
+    <section class="contact-info">
+      <h2>Liên hệ công việc :</h2>
+      <p>📍 Email: <a href="mailto:baohuy22062002@gmail.com">baohuy22062002@gmail.com</a></p>
+      <p>☎️ Số điện thoại: 0795858142</p>
+    </section>
+    <footer>
+      <div class="social-media">
+        <h2>Theo dõi mình trên mạng xã hội :</h2>
+        <a href="https://www.tiktok.com/@hub_gaming226?_t=ZS-8ugZgYJ97oX&_r=1" target="_blank">TikTok</a>
+        <a href="https://www.facebook.com/cynical2206" target="_blank">Facebook</a>
+        <a href="https://www.youtube.com/@baohuy2967" target="_blank">Youtube</a>
+      </div>
+    </footer> 
+    <!-- Phần carousel ảnh với nút điều hướng -->
+    <section class="image-carousel">
+      <button class="prev">&lt;</button>
+      <div class="carousel-container">
+        <img src="https://via.placeholder.com/150x100?text=Image+1" alt="Image 1">
+        <img src="https://via.placeholder.com/150x100?text=Image+2" alt="Image 2">
+        <img src="https://via.placeholder.com/150x100?text=Image+3" alt="Image 3">
+        <img src="https://via.placeholder.com/150x100?text=Image+4" alt="Image 4">
+        <img src="https://via.placeholder.com/150x100?text=Image+5" alt="Image 5">
+      </div>
+      <button class="next">&gt;</button>
+    </section>
+  </div>
+
+  <!-- JavaScript cho carousel -->
+  <script>
+    const prevBtn = document.querySelector('.image-carousel .prev');
+    const nextBtn = document.querySelector('.image-carousel .next');
+    const carouselContainer = document.querySelector('.carousel-container');
+
+    prevBtn.addEventListener('click', () => {
+      carouselContainer.scrollBy({ left: -160, behavior: 'smooth' });
+    });
+
+    nextBtn.addEventListener('click', () => {
+      carouselContainer.scrollBy({ left: 160, behavior: 'smooth' });
+    });
+  </script>
 </body>
 </html>
