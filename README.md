@@ -129,10 +129,10 @@
       </video>
     </section>
     <section class="section">
-      <h2>Lịch lên live cho anh chị em :</h2>
-      <p>- Thứ Hai - Thứ Sáu: 19:00 - 21:00.</p>
-      <p>- Thứ Bảy & Chủ Nhật: 18:00 - 21:30.</p>
-      <p>- Anh chị em ủng hộ nhìu thì stream đến khi độ kiếp nhé! Yêu cả nhà mình!</p>
+      <h2>Định hướng mà mình đang triển khai trên Tiktok :</h2>
+      <p>- Nghiên cứu, biên dịch và chia sẻ trích dẫn ở nhiều chủ đề.</p>
+      <p>- Khai thác Hacklife tips để đơn giản hóa mọi thứ.</p>
+      <p>- Cảm ơn mọi người đang quan tâm, yêu thích và theo dõi mình trên Tiktok</p>
     </section>
     <section class="contact-info">
       <h2>Liên hệ công việc :</h2>
