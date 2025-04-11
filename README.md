@@ -132,7 +132,7 @@
       <h2>Định hướng mà mình đang triển khai trên Tiktok :</h2>
       <p>- Nghiên cứu, biên dịch và chia sẻ trích dẫn ở nhiều chủ đề.</p>
       <p>- Khai thác Hacklife tips để đơn giản hóa mọi thứ.</p>
-      <p>- Cảm ơn mọi người đang quan tâm, yêu thích và theo dõi mình trên Tiktok</p>
+      <p>- Cảm ơn mọi người đã quan tâm, yêu thích và theo dõi mình trên Tiktok nhé!</p>
     </section>
     <section class="contact-info">
       <h2>Liên hệ công việc :</h2>
